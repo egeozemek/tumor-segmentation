@@ -1,6 +1,6 @@
 # 🧠 Tuning into Tumors: Frequency-Domain Tumor Segmentation
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/tumor-segmentation/blob/main/Tumor_Segmentation_Demo_Colab.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/egeozemek/tumor-segmentation/blob/main/Tumor_Segmentation_Demo_Colab.ipynb)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 
@@ -29,7 +29,7 @@ This project explores **frequency-domain filtering** techniques for automated tu
 
 ### Option 1: Run in Browser (Easiest - No Installation!)
 
-**Click here:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/tumor-segmentation/blob/main/Tumor_Segmentation_Demo_Colab.ipynb)
+**Click here:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/egeozemek/tumor-segmentation/blob/main/Tumor_Segmentation_Demo_Colab.ipynb)
 
 Then click **"Runtime" → "Run all"** and wait 1-2 minutes. That's it!
 
@@ -37,7 +37,7 @@ Then click **"Runtime" → "Run all"** and wait 1-2 minutes. That's it!
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/tumor-segmentation.git
+git clone https://github.com/egeozemek/tumor-segmentation.git
 cd tumor-segmentation
 
 # 2. Install dependencies
@@ -240,7 +240,7 @@ pip install -r requirements.txt
 
 ```bash
 # Clone and run
-git clone https://github.com/YOUR_USERNAME/tumor-segmentation.git
+git clone https://github.com/egeozemek/tumor-segmentation.git
 cd tumor-segmentation
 pip install -r requirements.txt
 jupyter notebook Tumor_Segmentation_Demo.ipynb
