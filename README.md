@@ -2,7 +2,7 @@
 
 **BME 271D Final Project**  
 *Ege Özemek, Max Bazan, Sasha Nikiforov*  
-Duke University, Fall 2024
+Duke University, Fall 2025
 
 ---
 
@@ -38,7 +38,7 @@ Frequency-domain methods offer unique advantages:
 
 ### Run in Google Colab (Recommended)
 
-1. **Open the notebook**: [Tumor_Segmentation_Final_v2.ipynb](Tumor_Segmentation_Final_v2.ipynb)
+1. **Open the notebook**: [Tumor_Segmentation_Demo_Colab.ipynb](Tumor_Segmentation_Demo_Colab.ipynb)
 2. **Upload to Google Colab**: Click "Open in Colab" button
 3. **Run all cells**: Runtime → Run all
 4. **Upload your MRI image**: When prompted in Cell 2
@@ -55,12 +55,12 @@ cd tumor-segmentation
 pip install -r requirements.txt
 
 # Run Jupyter notebook
-jupyter notebook Tumor_Segmentation_Final_v2.ipynb
+jupyter notebook Tumor_Segmentation_Demo_Colab.ipynb
 ```
 
 ---
 
-## 📊 Methods
+## Methods
 
 ### 1. FFT High-Pass Filtering
 - **Purpose**: Emphasize tumor boundaries and edges
@@ -89,7 +89,7 @@ jupyter notebook Tumor_Segmentation_Final_v2.ipynb
 
 ---
 
-## 📈 Evaluation Metrics
+## Evaluation Metrics
 
 When ground truth masks are provided, the system calculates:
 
@@ -114,7 +114,7 @@ IoU = |A ∩ B| / |A ∪ B|
 
 ---
 
-## 🎓 Course Concepts Applied
+## Course Concepts Applied
 
 This project demonstrates key concepts from BME 271D:
 
@@ -139,7 +139,7 @@ This project demonstrates key concepts from BME 271D:
 
 ```
 tumor-segmentation/
-├── Tumor_Segmentation_Final_v2.ipynb   # Main interactive notebook
+├── Tumor_Segmentation_Demo_Colab.ipynb   # Main interactive notebook
 ├── tumor_segmentation.py               # Core FFT functions
 ├── requirements.txt                    # Python dependencies
 ├── README.md                           # This file
@@ -171,7 +171,7 @@ tumor-segmentation/
 
 ---
 
-## 🔬 Clinical Implications
+## Clinical Implications
 
 ### Strengths
 ✅ **High precision**: FFT methods selective for bright abnormalities  
@@ -194,7 +194,7 @@ tumor-segmentation/
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 ```txt
 numpy>=1.21.0
@@ -209,7 +209,7 @@ All dependencies are listed in `requirements.txt` and automatically installed in
 
 ---
 
-## 🧪 How to Use Your Own Images
+## How to Use Your Own Images
 
 ### Step 1: Prepare Your MRI Image
 - **Format**: JPEG, PNG, or other common image formats
@@ -222,7 +222,7 @@ All dependencies are listed in `requirements.txt` and automatically installed in
 - **Purpose**: Calculate quantitative metrics (Dice, IoU, Boundary Accuracy)
 
 ### Step 3: Run the Notebook
-1. Open `Tumor_Segmentation_Final_v2.ipynb` in Colab
+1. Open `Tumor_Segmentation_Demo_Colab.ipynb` in Colab
 2. Run setup cell (Cell 1)
 3. Upload your MRI in Cell 2
 4. Upload mask in Cell 3 (optional)
@@ -236,7 +236,7 @@ All dependencies are listed in `requirements.txt` and automatically installed in
 
 ---
 
-## 📚 References
+## References
 
 ### Medical Imaging
 1. **The Cancer Imaging Archive (TCIA)**  
@@ -265,7 +265,7 @@ All dependencies are listed in `requirements.txt` and automatically installed in
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 This is a course project, but suggestions and improvements are welcome!
 
@@ -277,7 +277,7 @@ This is a course project, but suggestions and improvements are welcome!
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
@@ -286,12 +286,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👥 Authors
 
 **Ege Özemek** - Duke University  
-**Max [Last Name]** - Duke University  
-**Sasha [Last Name]** - Duke University
+**Max Bazan** - Duke University  
+**Sasha Nikiforov** - Duke University
 
 *BME 271D: Signals and Systems in Biomedical Engineering*  
-*Instructor: [Professor Name]*  
-*Fall 2024*
+*Instructor: Elizabeth Bucholz*  
+*Fall 2025*
 
 ---
 
@@ -304,23 +304,23 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📞 Contact
+## Contact
 
 For questions about this project:
 - **GitHub Issues**: [Create an issue](https://github.com/egeozemek/tumor-segmentation/issues)
-- **Email**: [your-email@duke.edu]
+- **Email**: [ege.ozemek@duke.edu]
 
 ---
 
-## ⭐ Citation
+## Citation
 
 If you use this code or methodology in your work, please cite:
 
 ```bibtex
-@misc{ozemek2024tumor,
+@misc{ozemek2025tumor,
   title={Brain Tumor Segmentation Using FFT Filters},
-  author={Özemek, Ege and [Max Last Name] and [Sasha Last Name]},
-  year={2024},
+  author={Özemek, Ege and Bazan, Max and Nikiforov, Sasha},
+  year={2025},
   publisher={GitHub},
   url={https://github.com/egeozemek/tumor-segmentation}
 }
