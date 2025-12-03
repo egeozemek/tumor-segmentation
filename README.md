@@ -1,12 +1,12 @@
 # 🧠 Brain Tumor Segmentation Using FFT Filters
 
 **BME 271D Final Project**  
-*Ege Özemek, Max [Last Name], Sasha [Last Name]*  
+*Ege Özemek, Max Bazan, Sasha Nikiforov*  
 Duke University, Fall 2024
 
 ---
 
-## 📋 Project Overview
+## Project Overview
 
 This project demonstrates **frequency-domain image segmentation** techniques for brain tumor detection in MRI scans. We implement Fast Fourier Transform (FFT) based filtering methods and compare their performance against traditional spatial-domain approaches.
 
@@ -20,7 +20,7 @@ This project demonstrates **frequency-domain image segmentation** techniques for
 
 ---
 
-## 🎯 Motivation
+## Motivation
 
 Automated tumor segmentation in medical imaging is crucial for:
 - **Surgical Planning**: Precise tumor localization
@@ -34,7 +34,7 @@ Frequency-domain methods offer unique advantages:
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Run in Google Colab (Recommended)
 
