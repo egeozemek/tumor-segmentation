@@ -1,6 +1,8 @@
 # 🧠 Brain Tumor Segmentation Using FFT Filters
 
-**BME 271D Final Project**  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/egeozemek/tumor-segmentation/blob/main/Tumor_Segmentation_Demo_Colab.ipynb)
+
+**BME 271D Final Project**
 *Ege Özemek, Max Bazan, Sasha Nikiforov*  
 Duke University, Fall 2025
 
